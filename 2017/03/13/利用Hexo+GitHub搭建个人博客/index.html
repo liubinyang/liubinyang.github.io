@@ -89,23 +89,20 @@
 
 <meta name="description" content="​    Hexo 是一款基于nodejs快速、简单、并且强大的博客博客模板框架，使用Markdown书写文章，而且不需要数据库；博客是托管在GitHub Pages上，网上之前有很多教程，但是大部分都有坑，所以自己写了一篇，包括在配置过程中遇到的一些问题的解决方法。
 搭建环境安装Node.js下载Node.js安装文件：
-安装过程中默认即可，安装结束后在cmd中输入：
-12node -vnpm">
+Windows 32-bit： https://nodejs.org/di">
 <meta property="og:type" content="article">
 <meta property="og:title" content="利用Hexo + GitHub 搭建个人博客">
 <meta property="og:url" content="http://yoursite.com/2017/03/13/利用Hexo+GitHub搭建个人博客/index.html">
 <meta property="og:site_name" content="SaltedFish">
 <meta property="og:description" content="​    Hexo 是一款基于nodejs快速、简单、并且强大的博客博客模板框架，使用Markdown书写文章，而且不需要数据库；博客是托管在GitHub Pages上，网上之前有很多教程，但是大部分都有坑，所以自己写了一篇，包括在配置过程中遇到的一些问题的解决方法。
 搭建环境安装Node.js下载Node.js安装文件：
-安装过程中默认即可，安装结束后在cmd中输入：
-12node -vnpm">
-<meta property="og:updated_time" content="2017-03-13T07:08:57.511Z">
+Windows 32-bit： https://nodejs.org/di">
+<meta property="og:updated_time" content="2017-03-13T07:19:52.739Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="利用Hexo + GitHub 搭建个人博客">
 <meta name="twitter:description" content="​    Hexo 是一款基于nodejs快速、简单、并且强大的博客博客模板框架，使用Markdown书写文章，而且不需要数据库；博客是托管在GitHub Pages上，网上之前有很多教程，但是大部分都有坑，所以自己写了一篇，包括在配置过程中遇到的一些问题的解决方法。
 搭建环境安装Node.js下载Node.js安装文件：
-安装过程中默认即可，安装结束后在cmd中输入：
-12node -vnpm">
+Windows 32-bit： https://nodejs.org/di">
 
 
 
@@ -332,11 +329,14 @@
       
         <p>​    Hexo 是一款基于nodejs快速、简单、并且强大的博客博客模板框架，使用Markdown书写文章，而且不需要数据库；博客是托管在GitHub Pages上，网上之前有很多教程，但是大部分都有坑，所以自己写了一篇，包括在配置过程中遇到的一些问题的解决方法。</p>
 <h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><h4 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h4><p>下载Node.js安装文件：</p>
+<p>Windows 32-bit： <a href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi" target="_blank" rel="external">https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi</a></p>
+<p>Windows 64-bit： <a href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi" target="_blank" rel="external">https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi</a></p>
 <p>安装过程中默认即可，安装结束后在cmd中输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">node -v</div><div class="line">npm -v</div></pre></td></tr></table></figure>
 <p>结果出现版本号，即安装成功。</p>
 <a id="more"></a>
 <h4 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h4><p>下载Git安装文件：</p>
+<p>Git官方下载地址： <a href="https://git-scm.com/downloads" target="_blank" rel="external">https://git-scm.com/downloads</a></p>
 <p>安装过程中同样默认即可，安装结束后在cmd中输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git --version</div></pre></td></tr></table></figure>
 <p>结果出现版本号，说明安装成功。</p>
@@ -352,10 +352,10 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo init</div><div class="line">npm install</div></pre></td></tr></table></figure>
 <p>安装完成后，可以先在本地测试，输入：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g</div><div class="line">hexo s</div></pre></td></tr></table></figure>
-<p>然后就可以在<a href="http://localhost:4000/查看打开" target="_blank" rel="external">http://localhost:4000/查看打开</a></p>
+<p>然后就可以在 <a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 查看打开</p>
 <h4 id="错误提醒"><a href="#错误提醒" class="headerlink" title="错误提醒"></a>错误提醒</h4><p>在结束上面的步骤之后，可能会出现无法访问localhost：4000的现象，原因是你的电脑端口被占用，使用hexo s 命令的时候换成如下命令，更换端口。</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s -p 5000</div></pre></td></tr></table></figure>
-<p>然后打开<a href="http://localhost:5000/查看，即可访问。" target="_blank" rel="external">http://localhost:5000/查看，即可访问。</a></p>
+<p>然后打开 <a href="http://localhost:5000/" target="_blank" rel="external">http://localhost:5000/</a> 查看，即可访问。</p>
 <h2 id="将Hexo部署到Github上"><a href="#将Hexo部署到Github上" class="headerlink" title="将Hexo部署到Github上"></a>将Hexo部署到Github上</h2><h4 id="配置Git个人信息"><a href="#配置Git个人信息" class="headerlink" title="配置Git个人信息"></a>配置Git个人信息</h4><p>设置Git的user name和email:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;****&quot;</div><div class="line">git config --global user.email &quot;******@***.com&quot;</div></pre></td></tr></table></figure>
 <p>生成密匙</p>
@@ -389,7 +389,11 @@
 <p>文章编辑好后，运行生成、部署命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g  # 生成</div><div class="line">hexo d  # 部署</div></pre></td></tr></table></figure>
 <p>部署成功后，就可以访问你的地址查看生成的文章。</p>
-<h2 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h2><p>Hexo里有很多种主题，不同主题的配置方法不同，可以根据自己的喜好选择，我的博客是使用NexT主题，配置文档：</p>
+<h2 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h2><p>Hexo里有很多种主题，不同主题的配置方法不同，可以根据自己的喜好选择，我的博客是使用NexT主题，配置文档： <a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">http://theme-next.iissnan.com/getting-started.html</a></p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://blog.csdn.net/gdutxiaoxu/article/details/53576018" target="_blank" rel="external">http://blog.csdn.net/gdutxiaoxu/article/details/53576018</a></p>
+<p><a href="http://blog.csdn.net/gdutxiaoxu/article/details/53573399" target="_blank" rel="external">http://blog.csdn.net/gdutxiaoxu/article/details/53573399</a></p>
+<p><a href="https://yq.aliyun.com/articles/33519#" target="_blank" rel="external">https://yq.aliyun.com/articles/33519#</a></p>
+<p><a href="https://yq.aliyun.com/articles/58027" target="_blank" rel="external">https://yq.aliyun.com/articles/58027</a></p>
 
       
     </div>
@@ -559,7 +563,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建环境"><span class="nav-number">1.</span> <span class="nav-text">搭建环境</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Node-js"><span class="nav-number">1.0.1.</span> <span class="nav-text">安装Node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Git"><span class="nav-number">1.0.2.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub账号配置"><span class="nav-number">1.0.3.</span> <span class="nav-text">GitHub账号配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Hexo"><span class="nav-number">1.0.4.</span> <span class="nav-text">安装Hexo</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化Hexo"><span class="nav-number">2.</span> <span class="nav-text">初始化Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#错误提醒"><span class="nav-number">2.0.1.</span> <span class="nav-text">错误提醒</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将Hexo部署到Github上"><span class="nav-number">3.</span> <span class="nav-text">将Hexo部署到Github上</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#配置Git个人信息"><span class="nav-number">3.0.1.</span> <span class="nav-text">配置Git个人信息</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置Deployment"><span class="nav-number">3.0.2.</span> <span class="nav-text">配置Deployment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#错误提醒-1"><span class="nav-number">3.0.3.</span> <span class="nav-text">错误提醒</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新建-发布文章"><span class="nav-number">4.</span> <span class="nav-text">新建/发布文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题安装"><span class="nav-number">5.</span> <span class="nav-text">主题安装</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#搭建环境"><span class="nav-number">1.</span> <span class="nav-text">搭建环境</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Node-js"><span class="nav-number">1.0.1.</span> <span class="nav-text">安装Node.js</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Git"><span class="nav-number">1.0.2.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#GitHub账号配置"><span class="nav-number">1.0.3.</span> <span class="nav-text">GitHub账号配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装Hexo"><span class="nav-number">1.0.4.</span> <span class="nav-text">安装Hexo</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化Hexo"><span class="nav-number">2.</span> <span class="nav-text">初始化Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#错误提醒"><span class="nav-number">2.0.1.</span> <span class="nav-text">错误提醒</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将Hexo部署到Github上"><span class="nav-number">3.</span> <span class="nav-text">将Hexo部署到Github上</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#配置Git个人信息"><span class="nav-number">3.0.1.</span> <span class="nav-text">配置Git个人信息</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#配置Deployment"><span class="nav-number">3.0.2.</span> <span class="nav-text">配置Deployment</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#错误提醒-1"><span class="nav-number">3.0.3.</span> <span class="nav-text">错误提醒</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新建-发布文章"><span class="nav-number">4.</span> <span class="nav-text">新建/发布文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题安装"><span class="nav-number">5.</span> <span class="nav-text">主题安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考"><span class="nav-number">6.</span> <span class="nav-text">参考</span></a></li></ol></div>
             
 
           </div>
