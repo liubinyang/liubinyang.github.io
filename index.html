@@ -88,11 +88,11 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="SaltedFish">
+<meta property="og:title" content="VigourSf">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="SaltedFish">
+<meta property="og:site_name" content="VigourSf">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="SaltedFish">
+<meta name="twitter:title" content="VigourSf">
 
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <title> SaltedFish </title>
+  <title> VigourSf </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -164,7 +164,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">SaltedFish</span>
+        <span class="site-title">VigourSf</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -247,6 +247,128 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/20/重装系统后恢复Hexo配置/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Liu Binyang">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="VigourSf">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/03/20/重装系统后恢复Hexo配置/" itemprop="url">
+                  重装系统后恢复Hexo配置
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-20T12:29:40+08:00">
+                2017-03-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>前几天电脑重新装了系统，C盘全部格式化了，回来后就发现无法更新博客，所以又要重新配置Hexo，步骤还是挺简单的，主要流程是先配置之前的那几个环境，然后配置你的SSH Key，完成之后就恢复了Hexo的配置。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/03/20/重装系统后恢复Hexo配置/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/13/利用Hexo+GitHub搭建个人博客/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -256,7 +378,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SaltedFish">
+      <meta itemprop="name" content="VigourSf">
     </span>
 
     
@@ -324,12 +446,6 @@
       
         
           <p>​    Hexo 是一款基于nodejs快速、简单、并且强大的博客博客模板框架，使用Markdown书写文章，而且不需要数据库；博客是托管在GitHub Pages上，网上之前有很多教程，但是大部分都有坑，所以自己写了一篇，包括在配置过程中遇到的一些问题的解决方法。</p>
-<h2 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h2><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>下载Node.js安装文件：</p>
-<p>Windows 32-bit： <a href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi">https://nodejs.org/dist/v4.2.3/node-v4.2.3-x86.msi</a></p>
-<p>Windows 64-bit： <a href="https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi">https://nodejs.org/dist/v4.2.3/node-v4.2.3-x64.msi</a></p>
-<p>安装过程中默认即可，安装结束后在cmd中输入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">node -v</div><div class="line">npm -v</div></pre></td></tr></table></figure>
-<p>结果出现版本号，即安装成功。</p>
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2017/03/13/利用Hexo+GitHub搭建个人博客/#more" rel="contents">
@@ -384,7 +500,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SaltedFish">
+      <meta itemprop="name" content="VigourSf">
     </span>
 
     
@@ -534,7 +650,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
